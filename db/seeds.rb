@@ -20,3 +20,9 @@ Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
 image_url: '7apps.jpg',
 price: 26.00)
 # . . .
+
+User.delete_all
+#..
+User.create!(name: 'admin',
+	password: 'secret')
+
